@@ -11,10 +11,7 @@ function App() {
         <div className="max-w-7xl mx-auto px-6 py-4 flex justify-center items-center gap-6 md:gap-12 text-stone-800 text-[10px] md:text-xs uppercase tracking-[0.2em] font-medium">
           <a href="#catalog" className="hover:text-rose-500 transition-colors">Тайминг</a>
           <a href="#location" className="hover:text-rose-500 transition-colors">Карта</a> {/* Ссылка на карту */}
-          <div className="text-xl font-serif italic tracking-tighter lowercase text-stone-900 px-4 border-x border-stone-200">
-            A<span className="text-rose-400">&</span>M
-          </div>
-          <a href="#contact" className="hover:text-rose-500 transition-colors">RSVP</a>
+          <a href="#contact" className="hover:text-rose-500 transition-colors">Подтвердить участие</a>
         </div>
       </nav>
 
