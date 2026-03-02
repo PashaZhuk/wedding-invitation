@@ -3,6 +3,7 @@ import { Hero } from './components/Hero';
 import { Catalog } from './components/Catalog';
 import { Location } from './components/Location'; // Импортируем карту
 import { ContactForm } from './components/ContactForm';
+import { Analytics } from "@vercel/analytics/react"
 
 function App() {
   return (
@@ -21,7 +22,7 @@ function App() {
         <Location /> {/* Секция с картой */}
         <ContactForm />
       </main>
-
+<Analytics />
       <footer className="bg-stone-50 py-12 text-center text-stone-400 text-sm italic">
         <p>Ждем вас на нашем празднике!</p>
         <p className="mt-2 not-italic tracking-widest uppercase text-[10px]">07.07.2026</p>
